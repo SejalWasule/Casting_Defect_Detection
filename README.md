@@ -12,6 +12,7 @@ The primary goal of this project is to leverage transfer learning by utilizing a
 The project is structured as follows:
 
 Data Preparation: Collect and preprocess a dataset of casted objects, separating them into two classes: defected and non-defected.
+![image](https://github.com/SejalWasule/Casting_Defect_Detection/assets/102143995/578ec5b7-7d90-42c4-a6b2-de397d05e783)
 
 Model Building:
 
@@ -27,6 +28,8 @@ Monitor training progress, including loss and accuracy.
 Model Saving: Save the trained model to an HDF5 file for later use.
 
  Learning Curves Visualization: Visualize training and validation accuracy/loss curves to assess model performance.
+ ![image](https://github.com/SejalWasule/Casting_Defect_Detection/assets/102143995/1e9ca66a-339c-421d-9cee-f17912c2c10f)
+
 
 ### Fine-Tuning:
 
@@ -43,7 +46,10 @@ Run the provided code to build, train, and evaluate the model. You can adjust hy
 
 Optionally, experiment with fine-tuning to improve model performance on your specific dataset.
 
-Results
+### Results
+Model performance: Training: loss: 0.0020 - accuracy: 0.9995 
+                   Validation: loss: 0.0277 - accuracy: 0.9966
+                   Test: loss: 0.0429 - accuracy: 0.9945
 After training, the model is expected to achieve high accuracy in classifying defected and non-defected casted objects. You can evaluate the model's performance on new data and use it for real-world applications.
 
 ### License
